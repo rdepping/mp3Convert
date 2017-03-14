@@ -24,6 +24,8 @@ def convertMp3(srcDir, destDir, dryRun=False):
 
 
 def main():
+    # Fire exposes the input parameters to the convert method via the command
+    # line
     fire.Fire(convertMp3)
 
 
